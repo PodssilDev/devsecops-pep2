@@ -1,0 +1,41 @@
+.rounded-corners-button {
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: #1562C0;
+    color: #fff;
+    box-shadow: 1px 1px 5px gray;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+  }
+.little-rounded-corners-button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #1562C0;
+    color: #fff;
+    box-shadow: 1px 1px 3px gray;
+    margin-right: 5px;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+  }
+.counter{
+  font-size: 20px;
+  color: black;
+}
+
+.button-to-mail{
+    justify-self: center;
+    background: #28a745;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    max-width: 400px;
+    max-height: 80px;
+    box-shadow: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Poppins",sans-serif;   
+}

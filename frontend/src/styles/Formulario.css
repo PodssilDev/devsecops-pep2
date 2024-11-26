@@ -1,0 +1,129 @@
+/* Estilos para el contenedor del formulario */
+.contain{
+  top:15px;
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+  zoom: 110%;
+}
+.contain-editar{
+  zoom: 110%;
+}
+.formulario-container {
+    top:15px;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 2px 5px 5px gray;
+  }
+.formulario-register{
+  top:15px;
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 2px 5px 5px gray;
+}
+  .formulario-editar {
+    top:15px;
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 2px 5px 5px gray;
+  }
+  select{    font-family: 'Poppins',sans-serif;}
+  header{
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Estilos para las etiquetas de los campos */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+  /* Estilos para los campos de entrada de texto */
+  input[type="text"] {
+    margin-left: 10px;
+    width: 93.5%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  input[type="password"] {
+    margin-left: 10px;
+    width: 93.5%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  /* Estilos para los campos de entrada de texto */
+  textarea[type="text"] {
+    margin-left: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height:100px;
+    font-family: 'Poppins',sans-serif;
+  }
+  .notas{
+    width: 93.5%;
+  }
+input{    font-family: 'Poppins',sans-serif;}
+  input[type="date"] {
+    margin-left: 10px;
+    width: 93.5%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  select{
+    margin-left: 10px;
+    width: 95.5%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  /* Estilos para el botón de enviar */
+  button[type="submit"] {
+    background-color: #007bff;
+    margin-bottom: 2%;
+    color: #fff;
+    padding: 15px 40px;
+    border: none;
+    border-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  /* Estilos para el botón de enviar al pasar el cursor */
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  h1{
+    text-align: center;
+    margin-bottom: 5px;
+    align-items: center;
+    font-weight: bold;
+
+  }

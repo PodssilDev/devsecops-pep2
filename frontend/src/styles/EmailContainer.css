@@ -1,0 +1,51 @@
+.content_email{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+.container_email{
+    position: absolute;
+    display: grid;
+    margin: 50px auto;
+}
+
+.rounded-corners-button-email {
+    justify-self: center;
+    background: #28a745;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    max-width: 400px;
+    max-height: 80px;
+    box-shadow: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Poppins",sans-serif;
+  }
+
+.destinatarios-email{
+    margin-right: 5px;
+    max-width: 690px;
+    min-width: 690px;
+    max-height: 400px;
+    min-height: 20px;
+}
+.asunto-email{
+    margin-right: 10px;
+    max-width: 690px;
+    min-width: 690px;
+    max-height: 20px;
+}
+.text-area-email{
+    margin-left: 13px;
+    max-width: 690px;
+    min-width: 690px;
+    min-height: 200px;
+    max-height: 400px;
+}
