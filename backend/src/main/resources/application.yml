@@ -1,0 +1,24 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: atentoBackend
+  jpa:
+    show-sql: true
+    hibernate:
+      dialect: MySQL8Dialect
+      ddl-auto: update
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    dbname: paciente
+    url: jdbc:mysql://localhost:3306/paciente?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: admin
+
+# JWT
+security:
+  jwt:
+    secret: Y2xpbmljYV9hdGVudG9fZGVudC5jbGluaWNhX2F0ZW50b19kZW50LmNsaW5pY2FfYXRlbnRvX2RlbnQuY2xpbmljYV9hdGVudG9fZGVudC5jbGluaWNhX2F0ZW50b19kZW50LmNsaW5pY2FfYXRlbnRvX2RlbnQuY2xpbmljYV9hdGVudG9fZGVudC5jbGluaWNhX2F0ZW50b19kZW50LmNsaW5pY2FfYXRlbnRvX2RlbnQ=
+    issuer: Main
+    ttlMillis: 2592000000
