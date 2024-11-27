@@ -1,6 +1,0 @@
-projectKey=CallBase-Frontend
-serverUrl=http://localhost:9000
-serverVersion=10.2.1.78527
-dashboardUrl=http://localhost:9000/dashboard?id=CallBase-Frontend
-ceTaskId=AYxCnz-8g5jEZufOoG6U
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AYxCnz-8g5jEZufOoG6U
