@@ -38,7 +38,7 @@
     background-color: #ffffff;
     box-shadow: 2px 5px 5px gray;
   }
-  select{    font-family: 'Poppins',sans-serif;}
+  select{    font-family: 'Poppins','sans-serif';}
   header{
     text-align: center;
     margin-bottom: 5px;
@@ -87,7 +87,7 @@
   .notas{
     width: 93.5%;
   }
-input{    font-family: 'Poppins',sans-serif;}
+  input{    font-family: 'Poppins','sans-serif';}
   input[type="date"] {
     margin-left: 10px;
     width: 93.5%;

@@ -9,7 +9,7 @@ scanner(
       "sonar.projectDescription": "Here I can add a description of my project",
       "sonar.projectKey": "frontend",
       "sonar.projectVersion": "0.0.1",
-      "sonar.exclusions": "sonarscan.js, .gitignore, Dockerfile, src/components/Server.jsx, server.js",
+      "sonar.exclusions": "",
       "sonar.sourceEncoding": "UTF-8",
     },
   },

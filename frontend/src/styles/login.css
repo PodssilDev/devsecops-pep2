@@ -134,8 +134,11 @@ input[type="submit"] {
   transition: all 0.2s ease;
   font-size: 18px;
   position: relative;
+  display: inline-block;
+  cursor: pointer;
   text-align: center;
 }
+
 input[type="submit"]:hover {
   background-color: #329dd5;
   -webkit-transition: all 0.2s ease;
